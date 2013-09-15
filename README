@@ -1,0 +1,14 @@
+A simple GUI designed to read an excel spreadsheet and save the contents
+into memory as a master dictionary. Then, ingredient lists are entered into
+the GUI and filtered to change any alternate terms to the master term. If 
+the term is unknown, it is returned as such.
+
+Files:
+
+setup.py
+	Purpoase: To compile the python code into an executable
+	Requirements: py2exe
+	
+FoodFactsGUI_2.py
+	Purpose: The main program file
+	Requirements: Tkinter, xlrd
